@@ -2,14 +2,14 @@
 
 ## Overview
 ---
-This project automates the ingestion, transformation, and analysis of UK crime data. The Data is collected by the offical police department of the UK's API. The data is first set on a backfill DAG to collect all the data to present day (all the data available so far)
+This project automates the ingestion, transformation, and analysis of UK crime data. The data is collected by the offical police department of the UK's API. The data is first set on a backfill DAG to collect all the data to present day (all the data available so far)
 Backfilled data is stored into bronze(raw data) and silver(transformed data) layers on AWS S3, it's made queryable via AWS Glue and Athena. 
 
 ## Architecture
 ---
 <img width="1846" height="724" alt="Screenshot 2025-07-17 at 9 05 01 PM" src="https://github.com/user-attachments/assets/a50baf0c-bf41-4381-bbc6-f0731d4bbdce" />
 
-- **Data Sources:** UK Police API (https://data.police.uk)  
+- **Data Sources:** UK Police API ([https://data.police.uk](https://data.police.uk/docs/))  
 - **Storage Layers:**  
   - Bronze (raw JSON data in S3)  
   - Silver (transformed CSV/parquet data in S3)  
