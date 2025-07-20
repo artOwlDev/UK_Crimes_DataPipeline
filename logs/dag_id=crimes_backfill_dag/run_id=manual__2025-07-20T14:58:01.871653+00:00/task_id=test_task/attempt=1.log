@@ -1,0 +1,11 @@
+{"timestamp":"2025-07-20T14:58:04.727545","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-20T14:58:04.728173","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/backfill_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-20T14:58:04.834476Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T14:58:04.836264Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T14:58:04.836568Z","level":"info","event":"Current task name:test_task","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T14:58:04.836924Z","level":"info","event":"Dag name:crimes_backfill_dag","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T14:58:04.837398Z","level":"info","event":"hello","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T14:58:04.837704Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T14:58:04.838095Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T14:58:04.838530Z","level":"info","event":"Task operator:<Task(PythonOperator): test_task>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T14:58:04.807256","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}

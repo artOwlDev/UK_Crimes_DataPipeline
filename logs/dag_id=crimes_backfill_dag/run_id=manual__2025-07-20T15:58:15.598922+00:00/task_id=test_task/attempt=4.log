@@ -1,0 +1,12 @@
+{"timestamp":"2025-07-20T16:13:24.389491","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-20T16:13:24.390300","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/backfill_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-20T16:13:24.596651Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T16:13:24.597007Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T16:13:24.597288Z","level":"info","event":"Current task name:test_task","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T16:13:24.597635Z","level":"info","event":"Dag name:crimes_backfill_dag","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T16:13:24.608860","level":"info","event":"Connection Retrieved 'crimes_IAM_connection'","logger":"airflow.hooks.base"}
+{"timestamp":"2025-07-20T16:13:24.609122","level":"info","event":"AWS Connection (conn_id='crimes_IAM_connection', conn_type='aws') credentials retrieved from login and password.","logger":"airflow.providers.amazon.aws.utils.connection_wrapper.AwsConnectionWrapper"}
+{"timestamp":"2025-07-20T16:13:26.426667","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-07-20T16:13:26.451653Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T16:13:26.452175Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T16:13:26.452539Z","level":"info","event":"Task operator:<Task(PythonOperator): test_task>","chan":"stdout","logger":"task"}
