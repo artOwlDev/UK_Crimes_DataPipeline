@@ -37,6 +37,10 @@ Backfilled data is stored into bronze(raw data) and silver(transformed data) lay
 ### Backfill DAG on airflow
 <img width="896" height="1204" alt="Screenshot 2025-07-20 at 3 41 25 PM" src="https://github.com/user-attachments/assets/6c43b70b-3cad-4d85-bb95-58031e9bb970" />
 
+### Data Visualization
+<img width="3326" height="2160" alt="image" src="https://github.com/user-attachments/assets/c25ffc45-5e83-4999-8df7-b2a581aa9ac2" />
+
+
 
 ### Prerequisites
 - Python 3.8 or higher  
