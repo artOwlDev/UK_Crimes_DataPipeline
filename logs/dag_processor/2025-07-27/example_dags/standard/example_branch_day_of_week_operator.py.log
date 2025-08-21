@@ -1,0 +1,3 @@
+{"timestamp":"2025-07-27T14:24:12.255771","level":"info","event":"Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-27T14:24:42.594954","level":"info","event":"Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-27T14:25:12.994742","level":"info","event":"Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/standard/example_branch_day_of_week_operator.py","logger":"airflow.models.dagbag.DagBag"}

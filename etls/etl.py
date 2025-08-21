@@ -43,7 +43,7 @@ def transform_and_store_crime_data(raw_data, city, date, aws_conn_id):
 
     df = pd.DataFrame(transformed_data)
 
-    csv_data = df.to_csv(index=False)  # convert to CSV string
+    csv_data = df.to_csv(index=False)  
 
     csv_key = f"silver/{city}/{date}/crimes_{city}_{date}.csv"
 
